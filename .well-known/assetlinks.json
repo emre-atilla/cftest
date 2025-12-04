@@ -11,7 +11,7 @@
     "include": [
       {
         "host": "kahramanmaraskulturturizm.com",
-        "path": "/varlik-detay"
+        "path": "/varlik-detay/*"
       }
     ]
   }
