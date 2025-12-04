@@ -1,0 +1,32 @@
+
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "4QZAHX25FP.com.kulturenvanter",
+        "components": [
+          {
+            "/": "/#/varlik-detay"
+          },
+          {
+            "/": "/varlik-detay"
+          },
+          {
+            "/": "/webnew123/varlik-detay"
+          }
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "4QZAHX25FP.com.kulturenvanter"
+    ]
+  },
+  "appclips": {
+    "apps": [
+      "4QZAHX25FP.com.kulturenvanter"
+    ]
+  }
+}
