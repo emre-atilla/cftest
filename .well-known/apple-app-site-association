@@ -4,16 +4,12 @@
     "details": [
       {
         "appID": "4QZAHX25FP.com.kulturenvanter",
-        "components": [
-          {
-            "/": "/varlik-detay/*"
-          },
-          {
-            "/": "/#/varlik-detay/*"
-          },
-          {
-            "/": "/webnew123/varlik-detay/*"
-          }
+        "paths": [
+          "NOT /webnew123/varlik-detay/exclude/*",
+          "/varlik-detay/*",
+          "/#/varlik-detay/*",
+          "/webnew123/varlik-detay/*",
+          "*"
         ]
       }
     ]
@@ -23,6 +19,7 @@
       "4QZAHX25FP.com.kulturenvanter"
     ]
   },
+  // "appclips" kısmını koruyabilirsiniz.
   "appclips": {
     "apps": [
       "4QZAHX25FP.com.kulturenvanter"
