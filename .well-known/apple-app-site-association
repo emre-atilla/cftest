@@ -4,12 +4,10 @@
     "details": [
       {
         "appID": "4QZAHX25FP.com.kulturenvanter",
-        "paths": [
-          "NOT /webnew123/varlik-detay/exclude/*",
-          "/varlik-detay/*",
-          "/#/varlik-detay/*",
-          "/webnew123/varlik-detay/*",
-          "*"
+        "components": [
+          {
+            "/": "/varlik-detay/"
+          }
         ]
       }
     ]
