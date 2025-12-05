@@ -4,12 +4,10 @@
     "details": [
       {
         "appID": "4QZAHX25FP.com.kulturenvanter",
-        "components": [
-          {
-            "/": "/deneme-olacakmi/*"
-          }
+        "paths": [
+          "/varlik-detay/*"
         ]
       }
     ]
-  },
+  }
 }
