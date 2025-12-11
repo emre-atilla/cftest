@@ -1,11 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Title of the document</title>
+  <meta charset="UTF-8" />
+  <title>Cotcast Deep Link Test</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 30px;
+      background: #fafafa;
+    }
+    button {
+      padding: 15px 25px;
+      font-size: 18px;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+      margin-bottom: 20px;
+      width: 250px;
+      background-color: #4A90E2;
+      color: white;
+    }
+    button:nth-child(2) {
+      background-color: #50C878;
+    }
+  </style>
 </head>
 
 <body>
-The content of the document......
-</body>
 
+  <h2>Cotcast Deep Link Test</h2>
+
+  <button onclick="window.location.href='cotcast://auth/login'">
+    Open Login (cotcast://auth/login)
+  </button>
+  <br/>
+
+  <button onclick="window.location.href='cotcast://auth/register'">
+    Open Register (cotcast://auth/register)
+  </button>
+
+  <p>
+    Eğer uygulama açılmıyorsa deep link ayarlarını kontrol et.
+  </p>
+
+</body>
 </html>
